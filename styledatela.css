@@ -1,0 +1,49 @@
+img{
+    width: 70px;
+    position:absolute ;
+    top:250px; 
+    left:300px;
+    border-radius: 20px;
+}
+div{
+    position: absolute;
+    top:20px;
+    left: 1850px;
+    
+}
+
+input{
+    position: absolute;
+    top:16px;
+    left: 1790px;
+}
+body{
+ background-color: #050926;
+ margin-top: 20px ;
+
+}
+script{
+    background-color: white;
+    color: white;
+}
+
+.wpp{
+    margin-left: 900px;
+    border-radius: 5px;
+    width: 70px;
+}
+.play{
+    margin-left: 700px;
+    border-radius: 5px;
+    width: 70px;
+}
+.Google{
+    margin-left: 450px;
+    border-radius: 5px;
+    width: 70px;
+}
+.spotify{
+    margin-left: 250px;
+    border-radius: 10px;
+    width: 70px;
+}

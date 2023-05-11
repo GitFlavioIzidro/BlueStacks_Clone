@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>BlueStacks</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styledatela.css'>
+    <script src='main.js'></script>
+    <link rel="icon" type="image/x-icon" href="./Imagens/iconnew.png">
+    <script>
+        
+        
+        alert("Made in the little house of Flávio! ");
+        
+        </script>
+</head>
+<body>
+   
+    <script type="text/javascript">
+        function startTime()
+        {
+        var today=new Date();
+        var h=today.getHours();
+        var m=today.getMinutes();
+        var s=today.getSeconds();
+        m=checkTime(m);
+        s=checkTime(s);
+        document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+        t=setTimeout('startTime()',500);
+        }
+        function checkTime(i)
+        {
+        if (i<10)
+        {
+        i="0" + i;
+        }
+        return i;
+        }
+        </script>
+        </head>
+        <body onload="startTime()">
+        <div id="txt"></div>
+        
+       <a href="WhatsApp.html"><img src="./Imagens/WWW.png"  class="wpp  img-responsive img-thumbnail>"></a>
+       <a href="playstore.html"><img src="./Imagens/icon.png"   class="play img-responsive img-thumbnail"></a>
+       <a href="Google.html"><img src="./Imagens/2991148.png" class="Google img-responsive img-thumbnail"></a>
+        <a href="./spotifyclone/index.html"><img src="Imagens/spot.png" class="spotify img-responsive img-thumbnail"></a>
+        </body>
+    
+
+</html>
